@@ -11,6 +11,8 @@ Extraia os arquivos no seu computador e execute o seguinte comando no seu termin
 ```
 cd docker-images/OracleDatabase/SingleInstance/dockerfiles
 sudo ./buildContainerImage.sh -v 21.3.0 -x
+cd ../../../..
+rm -rf docker-images
 ```
 
 Crie o serviço
