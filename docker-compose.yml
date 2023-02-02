@@ -4,6 +4,7 @@ services:
     oracle21xe:
       image: oracle/database:21.3.0-xe
       container_name: oracle21xe
+      restart: always
       ports:
         - "1521:1521"
       volumes:
