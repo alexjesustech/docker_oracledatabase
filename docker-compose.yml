@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+    oracle21xe:
+      image: oracle/database:21.3.0-xe
+      container_name: oracle21xe
+      ports:
+        - "1521:1521"
+      volumes:
+        - db:/opt/oracle/oradata
+      environment:
+        - ORACLE_PWD=teste_123
+
+volumes:
+  db:
+    driver: local
