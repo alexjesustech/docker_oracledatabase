@@ -25,11 +25,11 @@ Host = "rode o comando a seguir para saber o IP"
 ```
 docker exec -it oracle21xe hostname -i
 ```
-Port = 1521
-Database = XE <SID>
-Username = SYS
-Role = SYSDBA
-Password = teste_123
+<p>Port = 1521<br>
+Database = XE "SID"<br>
+Username = SYS<br>
+Role = SYSDBA<br>
+Password = teste_123</p>
 
 ![Configuração de conexão](img/conexao.png)
 
